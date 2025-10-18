@@ -1683,6 +1683,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "cmdlets/Enable-PnPPriviledgedIdentityManagement.md",
       "output": {
@@ -3253,6 +3256,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "cmdlets/Get-PnPPriviledgedIdentityManagementEligibleAssignment.md",
       "output": {
@@ -3263,6 +3269,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "cmdlets/Get-PnPPriviledgedIdentityManagementRole.md",
       "output": {
