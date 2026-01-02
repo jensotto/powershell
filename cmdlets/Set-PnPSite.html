@@ -77,7 +77,7 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-                
+                <div class="pnp_tags">Available in the current Nightly Release only.</div>
                   <div class="contribution-panel mobile-hide pull-right">
                       <a href="https://github.com/pnp/powershell/blob/dev/documentation/#L1" title="Edit this page" class="improve-doc-lg"><i class="glyphicon glyphicon-pencil"></i></a>
                   </div>
@@ -87,10 +87,11 @@
 <p>Sets site collection properties.</p>
 <h2 id="syntax">SYNTAX</h2>
 <h3 id="set-properties">Set Properties</h3>
-<pre><code class="lang-powershell">Set-PnPSite [-Identity &lt;String&gt;]
-[-Classification &lt;String&gt;]
-[-DisableFlows]
-[-LogoFilePath &lt;String&gt;]
+<pre><code class="lang-powershell">Set-PnPSite 
+ [-Identity &lt;String&gt;]
+ [-Classification &lt;String&gt;]
+ [-DisableFlows]
+ [-LogoFilePath &lt;String&gt;]
  [-Sharing &lt;SharingCapabilities&gt;]
  [-StorageMaximumLevel &lt;Int64&gt;]
  [-StorageWarningLevel &lt;Int64&gt;]
@@ -117,9 +118,15 @@
  [-ScriptSafeDomainName &lt;string&gt;]
  [-BlockDownloadPolicy &lt;Boolean&gt;] [-ExcludeBlockDownloadPolicySiteOwners &lt;Boolean&gt;]
  [-ExcludedBlockDownloadGroupIds &lt;Guid[]&gt;]
+ [-ExcludeBlockDownloadSharePointGroups &lt;String[]&gt;]
+ [-ReadOnlyForBlockDownloadPolicy]
  [-ListsShowHeaderAndNavigation &lt;Boolean&gt;]
  [-RestrictContentOrgWideSearch &lt;Boolean&gt;]
  [-CanSyncHubSitePermissions &lt;SwitchParameter&gt;]
+ [-ClearGroupId]
+ [-HidePeoplePreviewingFiles &lt;Boolean&gt;]
+ [-HidePeopleWhoHaveListsOpen &lt;Boolean&gt;]
+ [-RestrictedAccessControl &lt;Boolean&gt;]
  [-Connection &lt;PnPConnection&gt;]
 </code></pre>
 <h3 id="set-lock-state">Set Lock State</h3>
@@ -315,6 +322,18 @@ Accept wildcard characters: False
 </code></pre>
 <h3 id="-hidepeoplepreviewingfiles">-HidePeoplePreviewingFiles</h3>
 <p>Allows hiding of the presence indicators of users simultaneously editing files.</p>
+<pre><code class="lang-yaml">Type: String
+Parameter Sets: (All)
+Aliases: Url
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+</code></pre>
+<h3 id="-hidepeoplewhohavelistsopen">-HidePeopleWhoHaveListsOpen</h3>
+<p>Allows hiding of the presence indicators of users simultaneously working in lists.</p>
 <pre><code class="lang-yaml">Type: String
 Parameter Sets: (All)
 Aliases: Url
@@ -553,6 +572,28 @@ Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 </code></pre>
+<h3 id="-excludeblockdownloadsharepointgroups">-ExcludeBlockDownloadSharePointGroups</h3>
+<p>Exempts users from the specified SharePoint groups from the block download policy. Users in these groups can fully download any content for the site.</p>
+<pre><code class="lang-yaml">Type: String[]
+Parameter Sets: Set Properties
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+</code></pre>
+<h3 id="-readonlyforblockdownloadpolicy">-ReadOnlyForBlockDownloadPolicy</h3>
+<p>When enabled in combination with BlockDownloadPolicy, users will only be able to view the content in read-only mode but will not be able to download or sync files.</p>
+<pre><code class="lang-yaml">Type: SwitchParameter
+Parameter Sets: Set Properties
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+</code></pre>
 <h3 id="-listsshowheaderandnavigation">-ListsShowHeaderAndNavigation</h3>
 <p>Set a property on a site collection to make all lists always load with the site elements intact.</p>
 <pre><code class="lang-yaml">Type: Boolean
@@ -566,6 +607,17 @@ Accept wildcard characters: False
 </code></pre>
 <h3 id="-cansynchubsitepermissions">-CanSyncHubSitePermissions</h3>
 <p>Sets value if syncing hub site permissions to this associated site is allowed.</p>
+<pre><code class="lang-yaml">Type: Switch Parameter
+Parameter Sets: Set Properties
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+</code></pre>
+<h3 id="-cleargroupid">-ClearGroupId</h3>
+<p>This parameter allows you to remove the assigned Microsoft 365 group ID on a site, when the group is permanently deleted.</p>
 <pre><code class="lang-yaml">Type: Switch Parameter
 Parameter Sets: Set Properties
 

@@ -77,7 +77,7 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-                
+                <div class="pnp_tags">Available in the current Nightly Release only.</div>
                   <div class="contribution-panel mobile-hide pull-right">
                       <a href="https://github.com/pnp/powershell/blob/dev/documentation/#L1" title="Edit this page" class="improve-doc-lg"><i class="glyphicon glyphicon-pencil"></i></a>
                   </div>
@@ -147,13 +147,14 @@ Accept pipeline input: False
 Accept wildcard characters: False
 </code></pre>
 <h3 id="-iscopilotsearchable">-IsCopilotSearchable</h3>
-<p>Indicates that the organizational assets library should be searchable in the CoPilot search experience in Office applications to locate corporate images. Only works when the OrgAssetType is set to ImageDocumentLibrary.</p>
+<p>Indicates that the organizational assets library should be searchable in the Copilot search experience in Office applications to locate corporate images.</p>
+<p>This setting is only supported when <code>-OrgAssetType</code> is set to <code>ImageDocumentLibrary</code>. When using other <code>OrgAssetType</code> values (for example <code>OfficeTemplateLibrary</code>), this setting will always be <code>False</code> and specifying <code>-IsCopilotSearchable:$true</code> will result in an error.</p>
 <pre><code class="lang-yaml">Type: Boolean
 Parameter Sets: (All)
 
 Required: False
 Position: Named
-Default value: True
+Default value: False
 Accept pipeline input: False
 Accept wildcard characters: False
 </code></pre>
@@ -169,11 +170,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 </code></pre>
 <h3 id="-orgassettype">-OrgAssetType</h3>
-<p>Indicates the type of content in this library. Currently supported values are &quot;ImageDocumentLibrary&quot; and &quot;OfficeTemplateLibrary&quot;.</p>
+<p>Indicates the type of content in this library.</p>
 <p>ImageDocumentLibrary is the default OrgAssetType and is best used for images. You can access the contents of this library from any site or page in the SharePoint filepicker. OfficeTemplateLibrary is the suggested type for Office files and will show up in the UI of all Office desktop apps and Office online in the templates section.</p>
 <pre><code class="lang-yaml">Type: OrgAssetType
 Parameter Sets: (All)
-Accepted values: ImageDocumentLibrary, OfficeTemplateLibrary
+Accepted values: ImageDocumentLibrary, OfficeTemplateLibrary, BrandColorsList, BrandFontsLibrary, BrandKitLibrary, OfficeFontLibrary, Undefined
 
 Required: False
 Position: Named

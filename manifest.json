@@ -11,6 +11,19 @@
       }
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "articles/acsdeprecation.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/acsdeprecation.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "articles/authentication.md",
       "output": {
@@ -228,6 +241,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "articles/persistedlogin.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/persistedlogin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "articles/powershellpredictor.md",
       "output": {
         ".html": {
@@ -237,9 +260,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "articles/registerapplication.md",
       "output": {
@@ -280,9 +300,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Toc",
       "source_relative_path": "articles/toc.yml",
       "output": {
@@ -318,16 +335,6 @@
       "output": {
         ".html": {
           "relative_path": "articles/vscodeextension.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "cmdlets/Add-PnPAdaptiveScopeProperty.md",
-      "output": {
-        ".html": {
-          "relative_path": "cmdlets/Add-PnPAdaptiveScopeProperty.html"
         }
       },
       "version": ""
@@ -404,6 +411,29 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "cmdlets/Add-PnPBrandCenterFont.md",
+      "output": {
+        ".html": {
+          "relative_path": "cmdlets/Add-PnPBrandCenterFont.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "cmdlets/Add-PnPBrandCenterFontPackage.md",
+      "output": {
+        ".html": {
+          "relative_path": "cmdlets/Add-PnPBrandCenterFontPackage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "cmdlets/Add-PnPContentType.md",
       "output": {
         ".html": {
@@ -468,36 +498,6 @@
       "output": {
         ".html": {
           "relative_path": "cmdlets/Add-PnPDocumentSet.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "cmdlets/Add-PnPEntraIDGroupMember.md",
-      "output": {
-        ".html": {
-          "relative_path": "cmdlets/Add-PnPEntraIDGroupMember.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "cmdlets/Add-PnPEntraIDGroupOwner.md",
-      "output": {
-        ".html": {
-          "relative_path": "cmdlets/Add-PnPEntraIDGroupOwner.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "cmdlets/Add-PnPEntraIDServicePrincipalAppRole.md",
-      "output": {
-        ".html": {
-          "relative_path": "cmdlets/Add-PnPEntraIDServicePrincipalAppRole.html"
         }
       },
       "version": ""
@@ -964,16 +964,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "cmdlets/Add-PnPPropertyBagValue.md",
-      "output": {
-        ".html": {
-          "relative_path": "cmdlets/Add-PnPPropertyBagValue.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "cmdlets/Add-PnPPublishingImageRendition.md",
       "output": {
         ".html": {
@@ -1008,16 +998,6 @@
       "output": {
         ".html": {
           "relative_path": "cmdlets/Add-PnPRoleDefinition.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "cmdlets/Add-PnPSiteClassification.md",
-      "output": {
-        ".html": {
-          "relative_path": "cmdlets/Add-PnPSiteClassification.html"
         }
       },
       "version": ""
@@ -1354,26 +1334,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "cmdlets/Clear-PnPEntraIDGroupMember.md",
-      "output": {
-        ".html": {
-          "relative_path": "cmdlets/Clear-PnPEntraIDGroupMember.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "cmdlets/Clear-PnPEntraIDGroupOwner.md",
-      "output": {
-        ".html": {
-          "relative_path": "cmdlets/Clear-PnPEntraIDGroupOwner.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "cmdlets/Clear-PnPListItemAsRecord.md",
       "output": {
         ".html": {
@@ -1418,6 +1378,16 @@
       "output": {
         ".html": {
           "relative_path": "cmdlets/Clear-PnPTenantRecycleBinItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "cmdlets/Clear-PnPTraceLog.md",
+      "output": {
+        ".html": {
+          "relative_path": "cmdlets/Clear-PnPTraceLog.html"
         }
       },
       "version": ""
@@ -1504,6 +1474,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "cmdlets/Copy-PnPFileMetadata.md",
+      "output": {
+        ".html": {
+          "relative_path": "cmdlets/Copy-PnPFileMetadata.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "cmdlets/Copy-PnPFolder.md",
       "output": {
         ".html": {
@@ -1528,6 +1508,16 @@
       "output": {
         ".html": {
           "relative_path": "cmdlets/Copy-PnPList.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "cmdlets/Copy-PnPPage.md",
+      "output": {
+        ".html": {
+          "relative_path": "cmdlets/Copy-PnPPage.html"
         }
       },
       "version": ""
@@ -1683,14 +1673,11 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
-      "source_relative_path": "cmdlets/Enable-PnPPriviledgedIdentityManagement.md",
+      "source_relative_path": "cmdlets/Enable-PnPPrivilegedIdentityManagement.md",
       "output": {
         ".html": {
-          "relative_path": "cmdlets/Enable-PnPPriviledgedIdentityManagement.html"
+          "relative_path": "cmdlets/Enable-PnPPrivilegedIdentityManagement.html"
         }
       },
       "version": ""
@@ -2067,6 +2054,36 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "cmdlets/Get-PnPBrandCenterConfig.md",
+      "output": {
+        ".html": {
+          "relative_path": "cmdlets/Get-PnPBrandCenterConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "cmdlets/Get-PnPBrandCenterFont.md",
+      "output": {
+        ".html": {
+          "relative_path": "cmdlets/Get-PnPBrandCenterFont.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "cmdlets/Get-PnPBrandCenterFontPackage.md",
+      "output": {
+        ".html": {
+          "relative_path": "cmdlets/Get-PnPBrandCenterFontPackage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "cmdlets/Get-PnPBrowserIdleSignout.md",
       "output": {
         ".html": {
@@ -2101,16 +2118,6 @@
       "output": {
         ".html": {
           "relative_path": "cmdlets/Get-PnPChangeLog.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "cmdlets/Get-PnPClientSidePage.md",
-      "output": {
-        ".html": {
-          "relative_path": "cmdlets/Get-PnPClientSidePage.html"
         }
       },
       "version": ""
@@ -2317,120 +2324,10 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "cmdlets/Get-PnPEntraIDActivityReportDirectoryAudit.md",
+      "source_relative_path": "cmdlets/Get-PnPEnterpriseAppInsightsReport.md",
       "output": {
         ".html": {
-          "relative_path": "cmdlets/Get-PnPEntraIDActivityReportDirectoryAudit.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "cmdlets/Get-PnPEntraIDActivityReportSignIn.md",
-      "output": {
-        ".html": {
-          "relative_path": "cmdlets/Get-PnPEntraIDActivityReportSignIn.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "cmdlets/Get-PnPEntraIDApp.md",
-      "output": {
-        ".html": {
-          "relative_path": "cmdlets/Get-PnPEntraIDApp.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "cmdlets/Get-PnPEntraIDAppPermission.md",
-      "output": {
-        ".html": {
-          "relative_path": "cmdlets/Get-PnPEntraIDAppPermission.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "cmdlets/Get-PnPEntraIDAppSitePermission.md",
-      "output": {
-        ".html": {
-          "relative_path": "cmdlets/Get-PnPEntraIDAppSitePermission.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "cmdlets/Get-PnPEntraIDGroup.md",
-      "output": {
-        ".html": {
-          "relative_path": "cmdlets/Get-PnPEntraIDGroup.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "cmdlets/Get-PnPEntraIDGroupMember.md",
-      "output": {
-        ".html": {
-          "relative_path": "cmdlets/Get-PnPEntraIDGroupMember.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "cmdlets/Get-PnPEntraIDGroupOwner.md",
-      "output": {
-        ".html": {
-          "relative_path": "cmdlets/Get-PnPEntraIDGroupOwner.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "cmdlets/Get-PnPEntraIDServicePrincipal.md",
-      "output": {
-        ".html": {
-          "relative_path": "cmdlets/Get-PnPEntraIDServicePrincipal.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "cmdlets/Get-PnPEntraIDServicePrincipalAssignedAppRole.md",
-      "output": {
-        ".html": {
-          "relative_path": "cmdlets/Get-PnPEntraIDServicePrincipalAssignedAppRole.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "cmdlets/Get-PnPEntraIDServicePrincipalAvailableAppRole.md",
-      "output": {
-        ".html": {
-          "relative_path": "cmdlets/Get-PnPEntraIDServicePrincipalAvailableAppRole.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "cmdlets/Get-PnPEntraIDUser.md",
-      "output": {
-        ".html": {
-          "relative_path": "cmdlets/Get-PnPEntraIDUser.html"
+          "relative_path": "cmdlets/Get-PnPEnterpriseAppInsightsReport.html"
         }
       },
       "version": ""
@@ -2501,6 +2398,16 @@
       "output": {
         ".html": {
           "relative_path": "cmdlets/Get-PnPFileAnalyticsData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "cmdlets/Get-PnPFileCheckedOut.md",
+      "output": {
+        ".html": {
+          "relative_path": "cmdlets/Get-PnPFileCheckedOut.html"
         }
       },
       "version": ""
@@ -2997,30 +2904,10 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "cmdlets/Get-PnPMicrosoft365GroupMembers.md",
-      "output": {
-        ".html": {
-          "relative_path": "cmdlets/Get-PnPMicrosoft365GroupMembers.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "cmdlets/Get-PnPMicrosoft365GroupOwner.md",
       "output": {
         ".html": {
           "relative_path": "cmdlets/Get-PnPMicrosoft365GroupOwner.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "cmdlets/Get-PnPMicrosoft365GroupOwners.md",
-      "output": {
-        ".html": {
-          "relative_path": "cmdlets/Get-PnPMicrosoft365GroupOwners.html"
         }
       },
       "version": ""
@@ -3061,6 +2948,16 @@
       "output": {
         ".html": {
           "relative_path": "cmdlets/Get-PnPMicrosoft365GroupYammerCommunity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "cmdlets/Get-PnPMicrosoft365Roadmap.md",
+      "output": {
+        ".html": {
+          "relative_path": "cmdlets/Get-PnPMicrosoft365Roadmap.html"
         }
       },
       "version": ""
@@ -3111,6 +3008,16 @@
       "output": {
         ".html": {
           "relative_path": "cmdlets/Get-PnPPageComponent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "cmdlets/Get-PnPPageCopyProgress.md",
+      "output": {
+        ".html": {
+          "relative_path": "cmdlets/Get-PnPPageCopyProgress.html"
         }
       },
       "version": ""
@@ -3217,6 +3124,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "cmdlets/Get-PnPPowerAppPermission.md",
+      "output": {
+        ".html": {
+          "relative_path": "cmdlets/Get-PnPPowerAppPermission.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "cmdlets/Get-PnPPowerPlatformCustomConnector.md",
       "output": {
         ".html": {
@@ -3256,27 +3173,21 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
-      "source_relative_path": "cmdlets/Get-PnPPriviledgedIdentityManagementEligibleAssignment.md",
+      "source_relative_path": "cmdlets/Get-PnPPrivilegedIdentityManagementEligibleAssignment.md",
       "output": {
         ".html": {
-          "relative_path": "cmdlets/Get-PnPPriviledgedIdentityManagementEligibleAssignment.html"
+          "relative_path": "cmdlets/Get-PnPPrivilegedIdentityManagementEligibleAssignment.html"
         }
       },
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
-      "source_relative_path": "cmdlets/Get-PnPPriviledgedIdentityManagementRole.md",
+      "source_relative_path": "cmdlets/Get-PnPPrivilegedIdentityManagementRole.md",
       "output": {
         ".html": {
-          "relative_path": "cmdlets/Get-PnPPriviledgedIdentityManagementRole.html"
+          "relative_path": "cmdlets/Get-PnPPrivilegedIdentityManagementRole.html"
         }
       },
       "version": ""
@@ -3477,16 +3388,6 @@
       "output": {
         ".html": {
           "relative_path": "cmdlets/Get-PnPSiteAnalyticsData.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "cmdlets/Get-PnPSiteClassification.md",
-      "output": {
-        ".html": {
-          "relative_path": "cmdlets/Get-PnPSiteClassification.html"
         }
       },
       "version": ""
@@ -4023,6 +3924,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "cmdlets/Get-PnPTenantPronounsSetting.md",
+      "output": {
+        ".html": {
+          "relative_path": "cmdlets/Get-PnPTenantPronounsSetting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "cmdlets/Get-PnPTenantRecycleBinItem.md",
       "output": {
         ".html": {
@@ -4223,6 +4134,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "cmdlets/Get-PnPTraceLog.md",
+      "output": {
+        ".html": {
+          "relative_path": "cmdlets/Get-PnPTraceLog.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "cmdlets/Get-PnPUPABulkImportStatus.md",
       "output": {
         ".html": {
@@ -4403,16 +4324,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "cmdlets/Get-PnPWebhookSubscriptions.md",
-      "output": {
-        ".html": {
-          "relative_path": "cmdlets/Get-PnPWebhookSubscriptions.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "cmdlets/Get-PnPWikiPageContent.md",
       "output": {
         ".html": {
@@ -4427,16 +4338,6 @@
       "output": {
         ".html": {
           "relative_path": "cmdlets/Grant-PnPAzureADAppSitePermission.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "cmdlets/Grant-PnPEntraIDAppSitePermission.md",
-      "output": {
-        ".html": {
-          "relative_path": "cmdlets/Grant-PnPEntraIDAppSitePermission.html"
         }
       },
       "version": ""
@@ -4467,6 +4368,16 @@
       "output": {
         ".html": {
           "relative_path": "cmdlets/Grant-PnPTenantServicePrincipalPermission.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "cmdlets/Import-PnPFlow.md",
+      "output": {
+        ".html": {
+          "relative_path": "cmdlets/Import-PnPFlow.html"
         }
       },
       "version": ""
@@ -4563,16 +4474,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "cmdlets/Invoke-PnPSearchQuery.md",
-      "output": {
-        ".html": {
-          "relative_path": "cmdlets/Invoke-PnPSearchQuery.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "cmdlets/Invoke-PnPSiteDesign.md",
       "output": {
         ".html": {
@@ -4663,16 +4564,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "cmdlets/Move-PnPClientSideComponent.md",
-      "output": {
-        ".html": {
-          "relative_path": "cmdlets/Move-PnPClientSideComponent.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "cmdlets/Move-PnPFile.md",
       "output": {
         ".html": {
@@ -4697,6 +4588,16 @@
       "output": {
         ".html": {
           "relative_path": "cmdlets/Move-PnPListItemToRecycleBin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "cmdlets/Move-PnPPage.md",
+      "output": {
+        ".html": {
+          "relative_path": "cmdlets/Move-PnPPage.html"
         }
       },
       "version": ""
@@ -4787,26 +4688,6 @@
       "output": {
         ".html": {
           "relative_path": "cmdlets/New-PnPContainerType.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "cmdlets/New-PnPEntraIDGroup.md",
-      "output": {
-        ".html": {
-          "relative_path": "cmdlets/New-PnPEntraIDGroup.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "cmdlets/New-PnPEntraIDUserTemporaryAccessPass.md",
-      "output": {
-        ".html": {
-          "relative_path": "cmdlets/New-PnPEntraIDUserTemporaryAccessPass.html"
         }
       },
       "version": ""
@@ -5273,16 +5154,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "cmdlets/Register-PnPEntraIDApp.md",
-      "output": {
-        ".html": {
-          "relative_path": "cmdlets/Register-PnPEntraIDApp.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "cmdlets/Register-PnPEntraIDAppForInteractiveLogin.md",
       "output": {
         ".html": {
@@ -5297,16 +5168,6 @@
       "output": {
         ".html": {
           "relative_path": "cmdlets/Register-PnPHubSite.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "cmdlets/Register-PnPManagementShellAccess.md",
-      "output": {
-        ".html": {
-          "relative_path": "cmdlets/Register-PnPManagementShellAccess.html"
         }
       },
       "version": ""
@@ -5423,16 +5284,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "cmdlets/Remove-PnPClientSidePage.md",
-      "output": {
-        ".html": {
-          "relative_path": "cmdlets/Remove-PnPClientSidePage.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "cmdlets/Remove-PnPContainer.md",
       "output": {
         ".html": {
@@ -5497,66 +5348,6 @@
       "output": {
         ".html": {
           "relative_path": "cmdlets/Remove-PnPDeletedMicrosoft365Group.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "cmdlets/Remove-PnPEntraIDApp.md",
-      "output": {
-        ".html": {
-          "relative_path": "cmdlets/Remove-PnPEntraIDApp.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "cmdlets/Remove-PnPEntraIDGroup.md",
-      "output": {
-        ".html": {
-          "relative_path": "cmdlets/Remove-PnPEntraIDGroup.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "cmdlets/Remove-PnPEntraIDGroupMember.md",
-      "output": {
-        ".html": {
-          "relative_path": "cmdlets/Remove-PnPEntraIDGroupMember.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "cmdlets/Remove-PnPEntraIDGroupOwner.md",
-      "output": {
-        ".html": {
-          "relative_path": "cmdlets/Remove-PnPEntraIDGroupOwner.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "cmdlets/Remove-PnPEntraIDServicePrincipalAssignedAppRole.md",
-      "output": {
-        ".html": {
-          "relative_path": "cmdlets/Remove-PnPEntraIDServicePrincipalAssignedAppRole.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "cmdlets/Remove-PnPEntraIDUser.md",
-      "output": {
-        ".html": {
-          "relative_path": "cmdlets/Remove-PnPEntraIDUser.html"
         }
       },
       "version": ""
@@ -5823,10 +5614,10 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "cmdlets/Remove-PnPListItemComments.md",
+      "source_relative_path": "cmdlets/Remove-PnPListItemComment.md",
       "output": {
         ".html": {
-          "relative_path": "cmdlets/Remove-PnPListItemComments.html"
+          "relative_path": "cmdlets/Remove-PnPListItemComment.html"
         }
       },
       "version": ""
@@ -5997,6 +5788,16 @@
       "output": {
         ".html": {
           "relative_path": "cmdlets/Remove-PnPPlannerTask.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "cmdlets/Remove-PnPPowerAppPermission.md",
+      "output": {
+        ".html": {
+          "relative_path": "cmdlets/Remove-PnPPowerAppPermission.html"
         }
       },
       "version": ""
@@ -6723,16 +6524,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "cmdlets/Revoke-PnPEntraIDAppSitePermission.md",
-      "output": {
-        ".html": {
-          "relative_path": "cmdlets/Revoke-PnPEntraIDAppSitePermission.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "cmdlets/Revoke-PnPHubSiteRights.md",
       "output": {
         ".html": {
@@ -6913,16 +6704,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "cmdlets/Set-PnPClientSidePage.md",
-      "output": {
-        ".html": {
-          "relative_path": "cmdlets/Set-PnPClientSidePage.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "cmdlets/Set-PnPContentType.md",
       "output": {
         ".html": {
@@ -7003,26 +6784,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "cmdlets/Set-PnPEntraIDAppSitePermission.md",
-      "output": {
-        ".html": {
-          "relative_path": "cmdlets/Set-PnPEntraIDAppSitePermission.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "cmdlets/Set-PnPEntraIDGroup.md",
-      "output": {
-        ".html": {
-          "relative_path": "cmdlets/Set-PnPEntraIDGroup.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "cmdlets/Set-PnPField.md",
       "output": {
         ".html": {
@@ -7047,6 +6808,16 @@
       "output": {
         ".html": {
           "relative_path": "cmdlets/Set-PnPFileCheckedOut.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "cmdlets/Set-PnPFileRetentionLabel.md",
+      "output": {
+        ".html": {
+          "relative_path": "cmdlets/Set-PnPFileRetentionLabel.html"
         }
       },
       "version": ""
@@ -7593,6 +7364,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "cmdlets/Set-PnPSiteDocumentIdPrefix.md",
+      "output": {
+        ".html": {
+          "relative_path": "cmdlets/Set-PnPSiteDocumentIdPrefix.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "cmdlets/Set-PnPSiteGroup.md",
       "output": {
         ".html": {
@@ -7823,6 +7604,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "cmdlets/Set-PnPTenantPronounsSetting.md",
+      "output": {
+        ".html": {
+          "relative_path": "cmdlets/Set-PnPTenantPronounsSetting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "cmdlets/Set-PnPTenantRestrictedSearchMode.md",
       "output": {
         ".html": {
@@ -8027,6 +7818,16 @@
       "output": {
         ".html": {
           "relative_path": "cmdlets/Set-PnpTeamsChannelUser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "cmdlets/Start-PnPEnterpriseAppInsightsReport.md",
+      "output": {
+        ".html": {
+          "relative_path": "cmdlets/Start-PnPEnterpriseAppInsightsReport.html"
         }
       },
       "version": ""
@@ -8283,20 +8084,20 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "cmdlets/Update-PnPVivaConnectionsDashboardACE.md",
+      "source_relative_path": "cmdlets/Use-PnPBrandCenterFontPackage.md",
       "output": {
         ".html": {
-          "relative_path": "cmdlets/Update-PnPVivaConnectionsDashboardACE.html"
+          "relative_path": "cmdlets/Use-PnPBrandCenterFontPackage.html"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "cmdlets/Update-SiteClassification.md",
+      "source_relative_path": "cmdlets/Write-PnPTraceLog.md",
       "output": {
         ".html": {
-          "relative_path": "cmdlets/Update-SiteClassification.html"
+          "relative_path": "cmdlets/Write-PnPTraceLog.html"
         }
       },
       "version": ""
@@ -8337,6 +8138,26 @@
       "output": {
         "resource": {
           "relative_path": "images/PnP_PowerShell_Roadmap.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/acsdeprecation/README.md",
+      "output": {
+        "resource": {
+          "relative_path": "images/acsdeprecation/README.md"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/acsdeprecation/sample-get-pnpazureacsprincipal.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/acsdeprecation/sample-get-pnpazureacsprincipal.png"
         }
       },
       "version": ""
@@ -9577,6 +9398,16 @@
       "output": {
         "resource": {
           "relative_path": "images/docker/dockercontainers.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/dotnetfoundation_v4_small.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/dotnetfoundation_v4_small.png"
         }
       },
       "version": ""

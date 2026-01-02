@@ -77,7 +77,7 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-                
+                <div class="pnp_tags">Available in the current Nightly Release only.</div>
                   <div class="contribution-panel mobile-hide pull-right">
                       <a href="https://github.com/pnp/powershell/blob/dev/documentation/#L1" title="Edit this page" class="improve-doc-lg"><i class="glyphicon glyphicon-pencil"></i></a>
                   </div>
@@ -106,6 +106,8 @@
  [-MediaTranscription &lt;MediaTranscriptionPolicyType&gt;] 
  [-BlockDownloadPolicy &lt;Boolean&gt;] [-ExcludeBlockDownloadPolicySiteOwners &lt;Boolean&gt;]
  [-ExcludedBlockDownloadGroupIds &lt;Guid[]&gt;]
+ [-ExcludeBlockDownloadSharePointGroups &lt;String[]&gt;]
+ [-ReadOnlyForBlockDownloadPolicy]
  [-ListsShowHeaderAndNavigation &lt;Boolean&gt;]
  [-DefaultLinkToExistingAccessReset &lt;SwitchParameter&gt;] [-DefaultShareLinkRole &lt;Role&gt;]
  [-DefaultShareLinkScope &lt;SharingScope&gt;] [-LoopDefaultSharingLinkRole &lt;Role&gt;]
@@ -113,6 +115,8 @@
  [-RequestFilesLinkExpirationInDays &lt;Int32&gt;] [-RequestFilesLinkEnabled &lt;Boolean&gt;] [-OverrideSharingCapability &lt;Boolean&gt;]
  [-RestrictedAccessControl &lt;Boolean&gt;] [-ClearRestrictedAccessControl &lt;SwitchParameter&gt;] [-RestrictedAccessControlGroups &lt;Guid[]&gt;]
  [-AddRestrictedAccessControlGroups &lt;Guid[]&gt;] [-RemoveRestrictedAccessControlGroups &lt;Guid[]&gt;][-InheritVersionPolicyFromTenant &lt;SwitchParameter&gt;]
+ [-AllowWebPropertyBagUpdateWhenDenyAddAndCustomizePagesIsEnabled &lt;Boolean&gt;]
+ [-ClearGroupId]
  [-Wait] 
  [-Connection &lt;PnPConnection&gt;] 
 </code></pre>
@@ -651,6 +655,28 @@ Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 </code></pre>
+<h3 id="-excludeblockdownloadsharepointgroups">-ExcludeBlockDownloadSharePointGroups</h3>
+<p>Exempts users from the specified SharePoint groups from the block download policy. Users in these groups can fully download any content for the site.</p>
+<pre><code class="lang-yaml">Type: String[]
+Parameter Sets: Set Properties
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+</code></pre>
+<h3 id="-readonlyforblockdownloadpolicy">-ReadOnlyForBlockDownloadPolicy</h3>
+<p>When enabled in combination with BlockDownloadPolicy, users will only be able to view the content in read-only mode but will not be able to download or sync files.</p>
+<pre><code class="lang-yaml">Type: SwitchParameter
+Parameter Sets: Set Properties
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+</code></pre>
 <h3 id="-listsshowheaderandnavigation">-ListsShowHeaderAndNavigation</h3>
 <p>Set a property on a site collection to make all lists always load with the site elements intact.</p>
 <pre><code class="lang-yaml">Type: Boolean
@@ -675,6 +701,17 @@ Accept wildcard characters: False
 </code></pre>
 <h3 id="-clearrestrictedaccesscontrol">-ClearRestrictedAccessControl</h3>
 <p>To reset restricted access control configuration for a site.</p>
+<pre><code class="lang-yaml">Type: Switch Parameter
+Parameter Sets: Set Properties
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+</code></pre>
+<h3 id="-cleargroupid">-ClearGroupId</h3>
+<p>This parameter allows you to remove the assigned Microsoft 365 group ID on a site, when the group is permanently deleted.</p>
 <pre><code class="lang-yaml">Type: Switch Parameter
 Parameter Sets: Set Properties
 
@@ -833,6 +870,17 @@ Accept wildcard characters: False
 </code></pre>
 <h3 id="-requestfileslinkenabled">-RequestFilesLinkEnabled</h3>
 <p>Enables or disables the Request Files link on the site.</p>
+<pre><code class="lang-yaml">Type: Boolean
+Parameter Sets: Set Properties
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+</code></pre>
+<h3 id="-allowwebpropertybagupdatewhendenyaddandcustomizepagesisenabled">-AllowWebPropertyBagUpdateWhenDenyAddAndCustomizePagesIsEnabled</h3>
+<p>Enables or disables adding and updating web property bag values when the DenyAddAndCustomizePages is enabled.</p>
 <pre><code class="lang-yaml">Type: Boolean
 Parameter Sets: Set Properties
 
